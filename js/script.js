@@ -80,6 +80,6 @@ const initSlider = () => {
 });
 };
 
-window.addEventListener('DOMContentloaded', initSlider());
+window.addEventListener('DOMContentloaded', initSlider);
 
 
