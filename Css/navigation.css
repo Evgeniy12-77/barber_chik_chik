@@ -1,0 +1,29 @@
+
+.navigation__list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   gap: 32px;
+}
+
+.navigation__link {
+   color: inherit;
+   text-decoration: none;
+   font-size: 14px;
+   line-height: 100%;
+   text-transform: uppercase;
+}
+
+@media (max-width: 560px) {
+   .navigation__list {
+      flex-direction: column;
+      gap: 16px;
+      align-items: flex-start;
+   }
+   .navigation__link {
+      font-size: 12px;
+   }
+
+}
